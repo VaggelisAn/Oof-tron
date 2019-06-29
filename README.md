@@ -6,6 +6,7 @@ This is my submission for Discord's Hack Week, a bot (on the shitpost category) 
 ![Discord Hack Week Babeee](https://cdn-images-1.medium.com/max/2560/1*lh6NS8hx0pu5mlZeSqnu5w.jpeg "The most wonderful event")
 
 ### **Oof Bot's Commands**
+Default prefix: ?
 - oof.help: shows all the available commands
 - oof: Oofs you real hard. Arguments after the command: pitch level/oofs/chewbacca/demon/heliumed (personal favorite)/high/ultra_high
 - bruh: Bruh
