@@ -1,5 +1,5 @@
 import discord  # Discord API
-from discord.ext import commands
+from discord.ext import commands  
 
 token = open("token.txt", "r")  # File the token is in
 token = token.read()
@@ -7,24 +7,30 @@ prefix = open("prefix.txt", "r")  # File the prefix is in, default is nothing ("
 prefix = prefix.read()
 client = commands.Bot(command_prefix=prefix)
 
-client.remove_command('help')
+client.remove_command('help')  # Removed the default help command cause it's not really helpful
 
-prefix = ""
 vol = 5  # Default Volume the bot has
 pitch = 1  # Default pitch the bot has
 
 
 @client.event
 async def on_ready():  # Once the bot starts the code block below will run
-
     print("Oof")
 
+    
+# @client.command()  # For testing
+# async def test(ctx):
+#
+#    await ctx.send("ok")
+  
+    
 @client.command(pass_context=True, aliases=['oof.h', 'oof.help'])
 async def oof_help(ctx):
     embed = discord.Embed(title="~Oof Bot's Commands~", color=0xffff80)
     embed.add_field(name="oof.help", value="duh", inline=False)
     embed.add_field(name="oof", value="Oofs you real hard", inline=False)
     embed.add_field(name="bruh", value="Bruh", inline=False)
+    embed.add_field(name="za warudo", value="brpfbbbbbbbbbb", inline=False)
     embed.add_field(name="alexa Play Despacito", value="Despacito but less worse and much better", inline=False)
     embed.add_field(name="here come dat boi", value="oh shit waddup", inline=False)
     embed.add_field(name="volume", value="Less ear-death", inline=False)
@@ -40,13 +46,7 @@ async def set_prefix(ctx, prefix_str: str = ""):
     prefix_user = open("prefix.txt", "w")  # File the prefix is in, default is nothing ("")
     prefix_user.write(prefix_str)
 
-
-# @client.command()  # For testing
-# async def test(ctx):
-#
-#    await ctx.send("ok")
-
-
+    
 # Volume Command, changes the volume of the sounds
 @client.command(pass_context=True, aliases=['v', 'vol'])
 async def volume(ctx, num_pre: str):
@@ -217,3 +217,6 @@ async def on_message(message):
 
     await client.process_commands(message)
 client.run(token)
+
+# Made by Vaggelis A.
+# Love and gyri from greece :)
