@@ -20,5 +20,5 @@ This is my submission for Discord's Hack Week, a bot (on the shitpost category) 
 - Install [python 3.5.3+](https://www.python.org/) &
 - [discord.py](https://github.com/Rapptz/discord.py) with pip install discord.py and pip install discord.py[voice]
 - Open token.txt and enter your Bot's token. 
-- Run
+- Run and have fun I guess
 
