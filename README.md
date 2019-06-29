@@ -3,6 +3,8 @@ Some things are better left unsaid...
 
 This is my submission for Discord's Hack Week, a bot (on the shitpost category) that fills your voice chat with a words more elegant than Allan Poe's poems, more colorful than Picasso's paintings and more inspiring than instagram's influencers. 
 
+![Discord Hack Week Babeee][https://cdn-images-1.medium.com/max/2560/1*lh6NS8hx0pu5mlZeSqnu5w.jpeg]
+
 ### **Oof Bot's Commands**
 - oof.help: shows all the available commands
 - oof: Oofs you real hard. Arguments after the command: pitch level/oofs/chewbacca/demon/heliumed (personal favorite)/high/ultra_high
