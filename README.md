@@ -7,6 +7,7 @@ This is my submission for Discord's Hack Week, a bot (on the shitpost category) 
 - oof.help: shows all the available commands
 - oof: Oofs you real hard. Arguments after the command: pitch level/oofs/chewbacca/demon/heliumed (personal favorite)/high/ultra_high
 - bruh: Bruh
+- za warudo: brpfbbbbbbbbbbb
 - (This is so sad,) Alexa Play Despacito: Despacito but less worse and much better
 - here come dat boi: oh shit waddup
 - volume: Less ear-death
