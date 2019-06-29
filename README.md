@@ -21,7 +21,6 @@ Default prefix: [empty]
 - Install [python 3.5.3+](https://www.python.org/) &
 - [discord.py](https://github.com/Rapptz/discord.py) with pip install discord.py and pip install discord.py[voice]
 - Open token.txt and enter your Bot's token. 
-##Warning Important Step:
-- Create prefix.txt on the same directory oof-tron.py is in and enter your prefix, I prefer to leave it empty but GitHub won't let me upload an empty file.
+- Create prefix.txt (if it doesn't already exist) on the same directory oof-tron.py is in and enter your prefix, I prefer to leave it empty but GitHub won't let me upload an empty file.
 - Run and have fun I guess
 
